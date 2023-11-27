@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.playful-section {
+    background-color: #f5f5f5;
+}
+
+/* Tokenomics section styles */
+.tokenomics-list {
+    list-style-type: none;
+}
+
+.tokenomics-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tokenomics-list .highlight {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.sub-list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* Add more styles as needed */
+
+/* Add your other styles for different sections, navigation, etc. */
+
