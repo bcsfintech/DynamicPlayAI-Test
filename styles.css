@@ -7,6 +7,29 @@ body, h1, h2, h3, p, ul, li {
 /* Global styles */
 body {
     font-family: 'Arial', sans-serif;
+    }
+    {
+            margin: 0;
+            overflow: hidden; /* Ensure the video covers the entire viewport */
+        }
+
+        video {
+            position: fixed; /* Fixed position to cover the entire screen */
+            top: 0;
+            left: 0;
+            width: 100vw; /* Use viewport width */
+            height: 100vh; /* Use viewport height */
+            object-fit: cover; /* Ensure the video covers the entire element */
+            z-index: -1; /* Place the video behind other elements */
+        }
+
+        /* Additional styles for your content */
+        .content {
+            position: relative;
+            z-index: 1; /* Place the content above the video */
+            color: white; /* Example text color */
+            padding: 20px;
+        }
 }
 
 .content-container {
